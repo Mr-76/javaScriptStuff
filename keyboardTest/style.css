@@ -6,21 +6,13 @@ html {
 
 body,
 html {
-	height: 100%;
+	height: 80%;
 	margin: 0;
 	display: grid;
 	place-items: center;
 }
 
-.keys1 {
-	display: grid;
-	grid-template-columns: repeat(14, 15em);
-	flex: 1;
-	align-items: center;
-	justify-content: center;
-}
-
-.keys2 {
+.keys0,.keys1,.keys2,.keys3,.keys4,.keys5 {
 	display: grid;
 	grid-template-columns: repeat(14, 15em);
 	flex: 1;
@@ -29,31 +21,6 @@ html {
 }
 
 
-.keys3 {
-	display: grid;
-	grid-template-columns: repeat(14, 15em);
-	flex: 1;
-	align-items: center;
-	justify-content: center;
-}
-
-
-.keys4 {
-	display: grid;
-	grid-template-columns: repeat(14, 15em);
-	flex: 1;
-	align-items: center;
-	justify-content: center;
-}
-
-
-.keys5 {
-	display: grid;
-	grid-template-columns: repeat(14, 15em);
-	flex: 1;
-	align-items: center;
-	justify-content: center;
-}
 
 
 .key {
